@@ -1,0 +1,13 @@
+<div class="mb-4 flex items-center">
+    <label for="operandoA" class="mr-2 text-gray-700">Operando A:</label>
+    <input type="number" id="operandoA" class="border border-gray-300 rounded p-2 text-center" 
+        [(ngModel)]="operandoA"/>
+</div>
+<div class="mb-4 flex items-center">
+    <label for="operandoB" class="mr-2 text-gray-700">Operando B:</label>
+    <input type="number" id="operandoB" class="border border-gray-300 rounded p-2 text-center" 
+        [(ngModel)]="operandoB"/>
+</div>
+<button class="bg-blue-500 text-white rounded px-4 py-2 hover:bg-blue-600" (click)="sumar()">
+    Sumar
+</button>
